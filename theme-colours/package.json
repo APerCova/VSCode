@@ -1,0 +1,20 @@
+{
+	"name": "themes.colours",
+	"displayName": "@percova Colours",
+	"description":"Colours Theme for MS VSCode",
+	"version": "0.0.1",
+	"publisher": "@apercova",
+	"engines": { "vscode": "*" },
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "@percova Colours",
+				"uiTheme": "vs-dark",
+				"path": "./themes/apercova-colours.tmTheme"
+			}
+		]
+	}
+}

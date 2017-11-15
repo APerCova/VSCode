@@ -1,0 +1,20 @@
+{
+	"name": "themes.hot-season",
+	"displayName": "@percova Hot Season",
+	"description":"Hot Season Theme for MS VSCode",
+	"version": "0.0.1",
+	"publisher": "@apercova",
+	"engines": { "vscode": "*" },
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "@percova Hot Season",
+				"uiTheme": "vs-dark",
+				"path": "./themes/apercova-hot-season.tmTheme"
+			}
+		]
+	}
+}
